@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Trò Chơi Toán Lớp 1</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="game-container">
+
+    <h1>🐞 Trò Chơi Toán Lớp 1</h1>
+
+    <div class="question" id="question">
+      Câu hỏi
+    </div>
+
+    <div class="map">
+      <img src="map.png" alt="Bản đồ">
+    </div>
+
+    <div class="answer-box">
+      <input type="text" id="answer" placeholder="Nhập đáp án">
+
+      <button onclick="checkAnswer()">
+        Kiểm tra
+      </button>
+    </div>
+
+    <div class="result" id="result"></div>
+
+    <div class="score">
+      Điểm: <span id="score">0</span>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
